@@ -9,6 +9,4 @@ import {Contatto} from './contatto.model.ts';
 
 export class ContattoComponent {
   contatto: Contatto = new Contatto('Daniel', 'Tranquillini', 'daniel.tranquillini@marconirovereto.it', '1234567890', 5);
-
-
 }
