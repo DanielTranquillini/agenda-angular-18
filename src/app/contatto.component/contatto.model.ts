@@ -17,6 +17,9 @@ export class Contatto{
     return this.nome + " " + this.cognome;
   }
 
+  isPreferito(){
+    return this.nrStelle == 5;
+  }
   setPreferito(){
     this.nrStelle = 5;
   }
